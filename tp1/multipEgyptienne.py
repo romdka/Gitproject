@@ -5,7 +5,7 @@ def multiplicationEgyptienne(a, b):
         if a % 2 == 1:
             resultat += b
         a //= 2 
-        b *= 2 
+        b = b+b 
         i+=1
     
     print("Le résultat de la multiplication Egyptienne est de : ",resultat)
